@@ -1,5 +1,5 @@
 # HTTP 【HyperText Transfer Protocol】 
 
 ## 【HTTPとは？】  
-クライアント(Webブラウザ）とサーバー(Webサーバー)間において  
-Webコンテンツを送受信するためのプロトコル。  
+- Webブラウザ(Internet ExplorerやGoogle Chromeなど)とWebサーバー間において  
+Webコンテンツを送受信するためのルールや手順のことである。  
