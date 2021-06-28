@@ -83,9 +83,12 @@ HTTPリクエストのみに含まれる。代表的なものとしてWebブラ�
 - レスポンスヘッダーフィールド  
 HTTPレスポンスのみに含まれる。代表的なものとしてWebサーバーの固有情報を示す「Sever」がある。  
 
+## 【実際に確認してみる】   
+よく利用する[サウナイキタイ](https://sauna-ikitai.com/)にアクセス！
 
+[![Image from Gyazo](https://i.gyazo.com/6dcdfd4b66c5bc2559268ad232639e72.jpg)](https://gyazo.com/6dcdfd4b66c5bc2559268ad232639e72)
 
-
+- メソッド「GET」、ステータスコード「200」、Date,Serverを確認
 
 
 
