@@ -87,7 +87,7 @@ HTTPレスポンスのみに含まれる。代表的なものとしてWebサー�
 -  よく利用する[サウナイキタイ](https://sauna-ikitai.com/)にアクセス！  
 <br/>
 
-[![Image from Gyazo](https://i.gyazo.com/fda8af11e43f634706d8628bcd9233a9.jpg)](https://gyazo.com/fda8af11e43f634706d8628bcd9233a9)  
+[![Image from Gyazo](https://i.gyazo.com/b403757b4674ddb07ae56007972c8e47.png)](https://gyazo.com/b403757b4674ddb07ae56007972c8e47)  
 - パス、メソッド「GET」、ステータスコード「200」、プロトコル「h2」、スキーム「https」を確認。  
 <br/>
 <br/>
