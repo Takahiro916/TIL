@@ -84,13 +84,39 @@ HTTPリクエストのみに含まれる。代表的なものとしてWebブラ�
 HTTPレスポンスのみに含まれる。代表的なものとしてWebサーバーの固有情報を示す「Sever」がある。  
 
 ## 【実際に確認してみる】   
-よく利用する[サウナイキタイ](https://sauna-ikitai.com/)にアクセス！
+-  よく利用する[サウナイキタイ](https://sauna-ikitai.com/)にアクセス！
 
-[![Image from Gyazo](https://i.gyazo.com/6dcdfd4b66c5bc2559268ad232639e72.jpg)](https://gyazo.com/6dcdfd4b66c5bc2559268ad232639e72)
+[![Image from Gyazo](https://i.gyazo.com/fda8af11e43f634706d8628bcd9233a9.jpg)](https://gyazo.com/fda8af11e43f634706d8628bcd9233a9)
 
-- メソッド「GET」、ステータスコード「200」、Date,Serverを確認
+- パス、メソッド「GET」、ステータスコード「200」、プロトコル「h2」、スキーム「https」を確認。  
 
+[![Image from Gyazo](https://i.gyazo.com/c2cf5ad270423e97a20e7170f9576fc2.png)](https://gyazo.com/c2cf5ad270423e97a20e7170f9576fc2)  
 
+- レスポンスヘッダーとリクエストヘッダー。「Date」、「Server」を確認。
+
+- ログインしてみる。  
+
+[![Image from Gyazo](https://i.gyazo.com/8dbe09af531d9219e8327b9e727027d5.png)](https://gyazo.com/8dbe09af531d9219e8327b9e727027d5)  
+
+- パスの変更、ステータス「302」を確認。  
+
+- 先日行ったサウナの感想を投稿してみる。  
+
+[![Image from Gyazo](https://i.gyazo.com/2fd376ff1807cd56d7eb5fcd32576bc5.png)](https://gyazo.com/2fd376ff1807cd56d7eb5fcd32576bc5)
+
+- メソッド「POST」、データの送信を確認。  
+
+- 投稿を削除してみる。  
+
+[![Image from Gyazo](https://i.gyazo.com/bf07c387b714d40dc6562ce276863615.png)](https://gyazo.com/bf07c387b714d40dc6562ce276863615)  
+
+- メソッド「DELETE」確認。  
+
+- URLのユーザーIDを変更してみる。
+
+[![Image from Gyazo](https://i.gyazo.com/2a84a706891c82c5fe9e021c0d626ec5.png)](https://gyazo.com/2a84a706891c82c5fe9e021c0d626ec5)  
+
+- ステータス「404」確認。
 
 
 
