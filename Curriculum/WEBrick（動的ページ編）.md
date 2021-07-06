@@ -2,7 +2,8 @@
 
 ## 課題  
 
-```require 'webrick'
+```
+require 'webrick'
 
  server = WEBrick::HTTPServer.new({ 
    :DocumentRoot => './',
@@ -18,4 +19,5 @@
   res.body = body
  end
  
- server.start```
+ server.start
+ ```
