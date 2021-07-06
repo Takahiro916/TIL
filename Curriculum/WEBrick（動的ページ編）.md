@@ -37,3 +37,6 @@ body = "<html>
          <body>#{str}</body>
         </html>"
 ```
+
+[![Image from Gyazo](https://i.gyazo.com/781b8b9c1b3dc1ec8040e697f4d91e0e.png)](https://gyazo.com/781b8b9c1b3dc1ec8040e697f4d91e0e)
+
