@@ -1,6 +1,6 @@
 # 【Webサーバを立ち上げてWebの仕組みを知る（動的ページ編）】  
 
-## 課題  
+## 【課題】  
 
 ```
 require 'webrick'
@@ -20,5 +20,20 @@ server.mount_proc("/time") do |req, res|
 end
  
 server.start
- ```
+```
 [![Image from Gyazo](https://i.gyazo.com/471279bef065e3948fcc05eb0c54fd49.gif)](https://gyazo.com/471279bef065e3948fcc05eb0c54fd49)
+
+## 【表示を変えてみる】  
+- レスポンス内容を変更して表示を変えてみる
+
+```
+now = Time.now
+str = now.strftime("%Y年%m月%d日 %H:%M:%S")
+  
+body = "<html>
+         <head>
+          <meta charset=utf-8>
+         </head>
+         <body>#{str}</body>
+        </html>"
+```
