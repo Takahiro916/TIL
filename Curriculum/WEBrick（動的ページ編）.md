@@ -21,3 +21,4 @@ end
  
 server.start
  ```
+[![Image from Gyazo](https://i.gyazo.com/471279bef065e3948fcc05eb0c54fd49.gif)](https://gyazo.com/471279bef065e3948fcc05eb0c54fd49)
