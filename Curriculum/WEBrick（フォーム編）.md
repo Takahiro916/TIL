@@ -60,3 +60,7 @@ server.mount_proc("/form_post") do |req, res|
   res.body = body
 end
 ```
+
+[![Image from Gyazo](https://i.gyazo.com/dcaa9079c8ec39afdf72db61a1b69cfe.png)](https://gyazo.com/dcaa9079c8ec39afdf72db61a1b69cfe)
+
+[![Image from Gyazo](https://i.gyazo.com/feca87448ff0b5cc88ddc49b99dac798.png)](https://gyazo.com/feca87448ff0b5cc88ddc49b99dac798)
