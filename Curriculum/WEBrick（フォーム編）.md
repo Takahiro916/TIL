@@ -35,6 +35,7 @@
 [![Image from Gyazo](https://i.gyazo.com/76e036a52239ebfe633764ad40fd91c6.png)](https://gyazo.com/76e036a52239ebfe633764ad40fd91c6)
 
 </br>
+
 ## 課題2  
 - `req.query`を使用し入力値を取得
 
