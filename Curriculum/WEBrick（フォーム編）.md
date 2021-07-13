@@ -41,7 +41,7 @@
 
 ```
 server.mount_proc("/form_get") do |req, res|
-  h = req.query #入力値を表すハッシュを返す
+  h = req.query
   body = "<html><head><meta charset=utf-8></head>
   <body>クリエパラメータは#{h}です</br>こんにちは#{h["username"]}さん。あなたの年齢は#{h["age"]}ですね
   </body></html>"
@@ -51,7 +51,7 @@ server.mount_proc("/form_get") do |req, res|
 end
 
 server.mount_proc("/form_post") do |req, res|
-  h = req.query #入力値を表すハッシュを返す
+  h = req.query
   body = "<html><head><meta charset=utf-8></head>
   <body>クリエパラメータは#{h}です</br>こんにちは#{h["username"]}さん。あなたの年齢は#{h["age"]}ですね
   </body></html>"
