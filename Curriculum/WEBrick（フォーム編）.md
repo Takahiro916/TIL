@@ -33,3 +33,34 @@
 </br>
 
 [![Image from Gyazo](https://i.gyazo.com/76e036a52239ebfe633764ad40fd91c6.png)](https://gyazo.com/76e036a52239ebfe633764ad40fd91c6)
+
+</br>
+## 課題2  
+- webrick.rbを
+```
+require 'webrick'
+
+server = WEBrick::HTTPServer.new({ 
+  :DocumentRoot => './',
+  :BindAddress => '127.0.0.1',
+  :Port => 8000
+})
+
+server.mount_proc("/form_get") do |req, res|
+  h = req.query
+  body = "<html><head><meta charset=utf-8></head><body>クリエパラメータは#{h}です</br>こんにちは#{h["username"]}さん。あなたの年齢は#{h["age"]}ですね</body></html>"
+  res.status = 200
+  res['Content-Type'] = 'text/html'
+  res.body = body
+end
+
+server.mount_proc("/form_post") do |req, res|
+  h = req.query
+  body = "<html><head><meta charset=utf-8></head><body>クリエパラメータは#{h}です</br>こんにちは#{h["username"]}さん。あなたの年齢は#{h["age"]}ですね</body></html>"
+  res.status = 200
+  res['Content-Type'] = 'text/html'
+  res.body = body
+end
+
+server.start
+```
