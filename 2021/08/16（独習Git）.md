@@ -11,27 +11,7 @@
 % git log
 ```
 - 第1のコマンドは｢作業ディレクトリがクリーンな状態であり、コミットするべきものが存在しない｣("nothing to commit, working tree clean")と表示。  
-- 第2のコマンドはログを表示。
-- ファイルの追跡(track)を開始する方法を教えてくれる。(use git add to track)  
-- Gitが追跡できるファイルを1つ作成する。  
-
-<演習>  
-```
-% cd  
-% cd buildtools
-% echo -n contents  
-% echo -n contents > filexup.bat  
-% git status  
-```
-- buildtoolsディレクトリに移動し、echoコマンドにてファイルを1つ作成。  
-- Gitが作業ディレクトリ内に新しいファイルを検出する。  
-- そのファイルを｢追跡していない｣(untracked)と指摘している。  
-- ｢git addを使えば追跡できます｣(use "git add" to track)と提案している。
-
-```
-% git ls-files
-```
-- リポジトリに入っているファイルのリストを確認。  
+- 第2のコマンドはログを表示。  
 
 **`4.6 課題`**  
 1. "does not have any commits yet"  
