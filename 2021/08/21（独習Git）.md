@@ -21,7 +21,7 @@ use "git rm --cached <file>..." to unstage
 - readme.txtというファイルをmathディレクトに追加  
 - その後、下記にのようにタイプする
 ```
-it add readme.txt
+git add readme.txt
 git commit -m "Adding readme.txt"
 ```
 
